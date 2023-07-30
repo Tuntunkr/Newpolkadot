@@ -1,0 +1,102 @@
+.tagCard-nav {
+  margin: 50px 0px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.tabnavbar {
+  flex-shrink: 0;
+  border-radius: 8px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  text-transform: capitalize;
+  background-color: #e1f8ff;
+  padding: 15px;
+  flex-wrap: wrap;
+}
+
+.menu {
+  color: #1093c3;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.18px;
+}
+
+.menu :active {
+  background-color: #1093c3 !important;
+}
+
+.maincard-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.mainCard {
+  border-radius: 16px;
+  border: 1px solid #2e8fc8;
+  background: #fff;
+  box-shadow: 0px 0px 24px 4px rgba(28, 157, 207, 0.08);
+}
+
+.mainCard :is(.divA, .divB, .divC){
+  padding: 20px;
+}
+
+.divA {
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+
+.No-btn{
+  color: #0FA0CF;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: 16px; /* 133.333% */
+letter-spacing: 1.44px;
+text-transform: uppercase;
+display: flex;
+padding: 9px 23.953px 8px 18px;
+align-items: flex-start;
+border-radius: 20px;
+border: 2px solid #10A6D5;
+}
+
+.box-l button{
+  border-radius: 4px;
+background: #F5F7F7;
+/* display: flex; */
+margin: 1px;
+padding: 4px 8px;
+align-items: flex-start;
+color: #38474E;
+font-size: 8px;
+font-style: normal;
+font-weight: 600;
+line-height: 16px; 
+letter-spacing: 1.44px;
+text-transform: uppercase;
+
+}
+
+.divB {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  background: #e1f8ff;
+}
+
+.divC {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}

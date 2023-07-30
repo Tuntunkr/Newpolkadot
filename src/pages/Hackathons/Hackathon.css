@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"); /* font-family: 'Gothic A1', sans-serif; */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.heading-title {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.heading-title h2 {
+  margin-top: 20px;
+  color: #273339;
+  font-family: Nunito Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: -0.18px;
+}
+
+.tagCard-nav{
+   background: #FFF;
+    box-shadow: 0px 0px 24px 4px rgba(0, 0, 0, 0.10);
+
+}
+
+.overview-menu{
+    color: #3770FF;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; 
+    letter-spacing: 1.44px;
+    text-transform: uppercase; 
+    text-decoration: none;
+}
+
+.overview-menu :active{
+    background-color: brown;
+}

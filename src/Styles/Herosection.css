@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"); /* font-family: 'Gothic A1', sans-serif; */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --mainColor: #e6007a;
+  --mainColorLight: #131d55;
+  --secondary1: #0c74f6;
+  --secondary2: #2398cd;
+}
+
+/* herosection styling here  */
+
+.first-div-padding {
+    padding: 3rem 0;
+  }
+
+.heroleftside img {
+  width: 100%;
+
+}
+
+.hero-heading h3 {
+  margin-top: 30px;
+  color: #e6007a;
+  font-size: 60px;
+  font-family: Outfit;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 112.5%;
+}
+
+.heropara {
+  margin-top: 20px;
+  color: #1a1a1a;
+  font-size: 16px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.herorightside {
+  width: 100%;
+}
+
+/* countu styling here ... */
+
+.countup {
+  margin-top: 200px;
+  width: 100%s;
+  height: 210px;
+  flex-shrink: 0;
+  background: linear-gradient(298deg, #131d55 0%, #0fa7d5 37.93%, #e6007a 100%);
+}
+
+.Countup-contet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 3%;
+    
+}
+
+.maincontent h1{
+    color:  #FFF;
+    text-align: center;
+    font-family: Clash Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.maincontent p{
+    color: #FFF;
+text-align: center;
+font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+text-transform: capitalize;
+}
